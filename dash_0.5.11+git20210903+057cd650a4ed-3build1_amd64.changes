@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 23 Mar 2022 14:49:23 +0100
+Source: dash
+Binary: ash dash
+Built-For-Profiles: noudeb
+Architecture: source all amd64
+Version: 0.5.11+git20210903+057cd650a4ed-3build1
+Distribution: jammy
+Urgency: medium
+Maintainer: CHUNG-KAI OU <ouchungkai@gmail.com>
+Changed-By: Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>
+Description:
+ ash        - compatibility package for dash
+ dash       - POSIX-compliant shell
+Changes:
+ dash (0.5.11+git20210903+057cd650a4ed-3build1) jammy; urgency=medium
+ .
+   * No-change rebuild for ppc64el baseline bump.
+Checksums-Sha1:
+ f8aab3052b19e49050aa3ac8ca99498938d5119b 1303 dash_0.5.11+git20210903+057cd650a4ed-3build1.dsc
+ a5e53273c889c719e8d65b4987856906ef28f52b 134960 dash_0.5.11+git20210903+057cd650a4ed-3build1.debian.tar.xz
+ 99e2cb5ce6b4fe77b3fd8a1ac76e94f5cb9adf2a 27628 ash_0.5.11+git20210903+057cd650a4ed-3build1_all.deb
+ 6882f6a540322bd1f6556dbfba5d25ff300f59b2 172828 dash-dbgsym_0.5.11+git20210903+057cd650a4ed-3build1_amd64.ddeb
+ ffbb2cffd98b44a63e8ea7c6118783fc01d75871 6892 dash_0.5.11+git20210903+057cd650a4ed-3build1_amd64.buildinfo
+ 5bb6070c0fd119213b350d72e5a5c5c172d02126 114080 dash_0.5.11+git20210903+057cd650a4ed-3build1_amd64.deb
+Checksums-Sha256:
+ aa3fcf009c40c24cb92b5f79cd71c0f7e76782441232870a014c787236bd4cbd 1303 dash_0.5.11+git20210903+057cd650a4ed-3build1.dsc
+ 89f8d8bbbec971d29d0ac030de588ae1bdb8cf316bbea0dc7749e839f2bad741 134960 dash_0.5.11+git20210903+057cd650a4ed-3build1.debian.tar.xz
+ 7409c720835c3411e9da18d4f52dbf5f8f161c85cee78e76c35a2476018d6128 27628 ash_0.5.11+git20210903+057cd650a4ed-3build1_all.deb
+ 36b872930c152906ea5366f5b06ff48d88fc3d95db0c8748276532de7387c94f 172828 dash-dbgsym_0.5.11+git20210903+057cd650a4ed-3build1_amd64.ddeb
+ 23496405e295f8482815c4fd68accc4d8ef2dac411244b2ecdb550f4601737cd 6892 dash_0.5.11+git20210903+057cd650a4ed-3build1_amd64.buildinfo
+ 02a4b5f7bf9abe8dcc4204e0c2aaba76e2390c968798594eebd08d1364346313 114080 dash_0.5.11+git20210903+057cd650a4ed-3build1_amd64.deb
+Files:
+ 61279d4193367a4aeae8664d5d60219d 1303 shells optional dash_0.5.11+git20210903+057cd650a4ed-3build1.dsc
+ 04020017cf6014256111068e1d350361 134960 shells optional dash_0.5.11+git20210903+057cd650a4ed-3build1.debian.tar.xz
+ fae5c49f7c8a1a13a60e6aa28393d6f8 27628 shells optional ash_0.5.11+git20210903+057cd650a4ed-3build1_all.deb
+ 9ec356fdccf1578ecb2ba9b4d12d8f08 172828 debug optional dash-dbgsym_0.5.11+git20210903+057cd650a4ed-3build1_amd64.ddeb
+ d2cec2e4b19433a495d1a952da9d8d1c 6892 shells optional dash_0.5.11+git20210903+057cd650a4ed-3build1_amd64.buildinfo
+ 6a597cefe1fd93fe483a254b288b7e74 114080 shells required dash_0.5.11+git20210903+057cd650a4ed-3build1_amd64.deb

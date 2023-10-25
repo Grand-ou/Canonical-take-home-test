@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+# Postinst script for your package
+
+# Display a message during installation
+echo "This is a test from ChungKai Ou"
+
+# Other installation steps go here
+
+exit 0
